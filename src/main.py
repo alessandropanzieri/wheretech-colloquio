@@ -19,4 +19,4 @@ if __name__ == "__main__":
     print("connection was established successfully")
     cursor = connection.cursor()
 
-    create_database("demo_3", ingestion_data, connection, cursor)
+    create_database("test", ingestion_data, connection, cursor)
